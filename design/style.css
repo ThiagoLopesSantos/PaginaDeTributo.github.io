@@ -1,0 +1,193 @@
+ /*font-family: 'Oleo Script', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Playfair Display', serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Playfair Display', serif;
+}/*Aplicação universal*/
+
+body{
+    background-color:rgb(230, 230, 230);
+}/*Corpo Geral*/
+
+/*--------------AREA DO TOPO DO SITE----------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+}/*Corpo do TOPO*/
+
+#fototributo{
+    display: block;
+    text-align: center;
+    margin:20px;
+    position: relative;
+    
+}/*DIVISOR DE ITENS DO TOPO (DIV)*/
+
+.top h1{
+    color:#000;
+    border-bottom:solid #777;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}/*HEADING TITULO*/
+
+#marvel{
+    position:absolute;  
+    top: -35px;   
+    right: 0;
+    width: 100px;
+}/*LOGO DA MARVEL*/
+
+#imgTopo{
+    padding: 5px;
+    margin-top: 10px;
+}/*Imagem do Topo*/
+
+#citacao{
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    color: black;
+    border: solid 1px ;
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}/* Texto de citação */
+
+.menu{
+    display:inline-block;
+    margin-top: 20px;
+    border: solid 1px #777;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 5px 5px 5px  #000;
+}/*Estrututura geral do menu*/
+
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+}/*Estrutura da Lista*/
+
+.menu a{
+    text-decoration:none;
+    color: #000;
+    padding: 10px;
+    margin:auto;
+}/*Selecionando os links*/
+.menu a:hover{
+    color:#FFF;
+    background-color: #777;
+    border: solid 0.5px black;
+    box-shadow: 2px 2x 1px #000;
+}/*Ação sobre os links ao passar o mouse*/
+
+.menu #menu1:hover{
+    border-radius: 10px 0 0 10px;
+}/*Estilizando apenas bordas do topo left e bottom left*/
+
+.menu #menu5:hover{
+    border-radius: 0px 10px 10px 0px;
+}/*Estilizando apenas bordas do topo right e bottom right*/
+
+
+
+/*--------------AREA DO SECTION 1----------------------------------*/
+main{
+    border:solid 1px #000;
+    margin: 20px;
+    padding: 0;
+}
+section{
+    display:flex;    
+}
+.descricao{
+    border: solid 1px #999;
+    padding:10px;
+    margin:5px
+}
+.descricao h1{
+    text-align:center;
+}
+.descricao p{
+    text-align: justify;
+}
+.descricao h1{
+    color:#000;
+    border-bottom:solid #777;
+    font-family: 'Playfair Display', serif;
+}
+.descricao p{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+}  
+.descricao p a{
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #777;
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+} 
+.descricao p a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+#apresentation{
+    width: 800px;
+    margin: 5px;
+}
+
+/*-----------AREA DA SECTION 2---------------------------*/
+.descricao1 h1{
+    color:#000;
+    border-bottom: dashed 2px #777;
+    font-family: 'Playfair Display', serif;
+    
+}
+.armaduras{
+    width: 500px;
+    margin: 5px;
+}
+
+/*---------- VOLTAR AO TOPO DO SITE*/
+#voltar{
+    margin-left: 45%;
+    margin-right: 45%;
+    text-decoration: none; 
+}
+#voltar button{
+    margin-top: 10px;
+    padding:10px;
+    border-radius: 5px 5px 5px ;
+    font-weight: bolder;
+}
+button:hover{
+    color: #FFF;
+    background-color: #777;
+}
+
+/*---------- FORMULARIO --------------*/
+#formulario{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#formulario textarea{
+    display: flex;
+    justify-content: center;
+    resize: none;
+}
+input,textarea{
+    margin-top:10px;
+}
+
+
+/*--------------AREA DA PÁGINA INDUSTRIAS STARK]----------------------------------*/
+#indStark{
+    width: 800px;
+    margin: 5px;
+}
